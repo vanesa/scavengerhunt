@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9C85370A970B98BA6BA50A40353061DEAB9F26F9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9C85370A970B98BA6BA50A40353061DEAB9F26F9" : 0,
+    "A6A34E8B941F1DFE7C3DF2978A6DCD29B02D61ED" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7FE1982F-63DA-4F73-91E2-24BD06F3160D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9C85370A970B98BA6BA50A40353061DEAB9F26F9" : "Scavenger%20Hunt\/",
+    "A6A34E8B941F1DFE7C3DF2978A6DCD29B02D61ED" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Scavenger Hunt",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Scavenger Hunt.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vanesa\/scavengerhunt.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C85370A970B98BA6BA50A40353061DEAB9F26F9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vanesa\/codepractice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A6A34E8B941F1DFE7C3DF2978A6DCD29B02D61ED"
+    }
+  ]
+}
