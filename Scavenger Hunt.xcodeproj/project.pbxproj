@@ -15,6 +15,7 @@
 		020669E11C25D948009CDD2B /* Scavenger_HuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020669E01C25D948009CDD2B /* Scavenger_HuntTests.swift */; };
 		020669EC1C25D948009CDD2B /* Scavenger_HuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020669EB1C25D948009CDD2B /* Scavenger_HuntUITests.swift */; };
 		020669FA1C25E8AC009CDD2B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020669F91C25E8AC009CDD2B /* ListViewController.swift */; };
+		025B6B111C261415009BE1A4 /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B6B101C261415009BE1A4 /* ScavengerHuntItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		020669EB1C25D948009CDD2B /* Scavenger_HuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scavenger_HuntUITests.swift; sourceTree = "<group>"; };
 		020669ED1C25D948009CDD2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		020669F91C25E8AC009CDD2B /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		025B6B101C261415009BE1A4 /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				020669CB1C25D948009CDD2B /* AppDelegate.swift */,
 				020669CD1C25D948009CDD2B /* AddViewController.swift */,
 				020669CF1C25D948009CDD2B /* Main.storyboard */,
+				025B6B101C261415009BE1A4 /* ScavengerHuntItem.swift */,
 				020669F91C25E8AC009CDD2B /* ListViewController.swift */,
 				020669D21C25D948009CDD2B /* Assets.xcassets */,
 				020669D41C25D948009CDD2B /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				020669CE1C25D948009CDD2B /* AddViewController.swift in Sources */,
 				020669CC1C25D948009CDD2B /* AppDelegate.swift in Sources */,
+				025B6B111C261415009BE1A4 /* ScavengerHuntItem.swift in Sources */,
 				020669FA1C25E8AC009CDD2B /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				020669F21C25D948009CDD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		020669F31C25D948009CDD2B /* Build configuration list for PBXNativeTarget "Scavenger HuntTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				020669F51C25D948009CDD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		020669F61C25D948009CDD2B /* Build configuration list for PBXNativeTarget "Scavenger HuntUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				020669F81C25D948009CDD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
