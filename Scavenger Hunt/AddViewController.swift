@@ -24,5 +24,21 @@ class AddViewController: UIViewController {
         dismissViewControllerAnimated(true, completion: nil)
     }
 
+    @IBOutlet weak var textField: UITextField!
+    
+    var newItem: ScavengerHuntItem?
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "DoneItem" {
+            if let name = textField.text { // assigns name to textField.text then checks if name is not equal to nil 
+                if !name.isEmpty { // if name is not empty, store newItem
+                    newItem = ScavengerHuntItem(name: name)
+                }
+                
+            }
+        }
+    }
+    
+
 }
 

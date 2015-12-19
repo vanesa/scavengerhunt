@@ -20,6 +20,7 @@
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="APU-4d-6Op">
                                 <rect key="frame" x="20" y="104" width="560" height="30"/>
+                                <color key="textColor" red="0.98620009422302246" green="0.25015911084763753" blue="0.32931052990128118" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -40,10 +41,17 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="xRJ-0n-7E0">
                             <color key="tintColor" red="0.35445219726797489" green="0.77468504581151831" blue="0.6917543661690696" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="6Kh-Hy-G8K" kind="unwind" identifier="DoneItem" unwindAction="unwindToList:" id="21S-vM-ILw"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="textField" destination="APU-4d-6Op" id="d3c-gz-G9l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="6Kh-Hy-G8K" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1869" y="337"/>
         </scene>
@@ -81,7 +89,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="CaN-QL-ABS">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="3jn-V2-CsS">
-                            <color key="tintColor" red="1" green="0.17849794029999999" blue="0.39847880600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="tintColor" red="0.98620009419999999" green="0.25015911079999997" blue="0.32931052989999998" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="iNl-ga-nm6" kind="presentation" id="l4O-IB-YYe"/>
                             </connections>
@@ -129,4 +137,5 @@
             <point key="canvasLocation" x="1057" y="987"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.35445219729999999" green="0.77468504579999997" blue="0.69175436619999997" alpha="1" colorSpace="calibratedRGB"/>
 </document>
